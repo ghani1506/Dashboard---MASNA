@@ -1,0 +1,32 @@
+:root{--school-blue:#17618a;--school-green:#087f59;--school-orange:#d28430}
+.stApp{background:#f3f6fa;color:#1d3044}
+.block-container{max-width:1560px;padding:2rem 2.8rem 3rem}
+h1,h2,h3{color:#17344d;letter-spacing:-.03em;font-weight:700!important}
+h1{font-size:2rem!important}h2{font-size:1.35rem!important}h3{font-size:1.15rem!important}
+section[data-testid="stSidebar"]{background:#edf2f7;border-right:1px solid #dce5ec}
+section[data-testid="stSidebar"] h1{font-size:1.6rem!important}
+section[data-testid="stSidebar"] div[data-testid="stRadio"] label{padding:6px 0}
+div[data-testid="stMetric"]{background:#fff;border:1px solid #dde6ee;border-top:3px solid #17618a;border-radius:12px;padding:20px 22px;box-shadow:0 3px 12px #18384b06}
+div[data-testid="stMetricLabel"]{color:#657689;font-size:.8rem}
+div[data-testid="stMetricValue"]{color:#173d58;font-size:2rem;font-weight:700}
+div[data-testid="stDataFrame"]{border:1px solid #dce5ec;border-radius:10px;overflow:hidden}
+div[data-testid="stPlotlyChart"]{background:white;border:1px solid #e1e8ef;border-radius:12px;padding:8px}
+button{border-radius:8px!important;font-weight:600!important}
+.school-header{display:flex;align-items:center;gap:22px;background:white;border:1px solid #dde6ee;border-radius:15px;padding:22px 28px;margin-bottom:24px;box-shadow:0 5px 18px #18384b05;border-bottom:3px solid #17618a}
+.school-header img{width:78px;height:88px;object-fit:contain}
+.school-kicker{color:#17618a;font-size:10px;letter-spacing:1.6px;font-weight:700;text-transform:uppercase;margin-bottom:7px}
+.school-name{font-size:19px;font-weight:700;line-height:1.4;color:#17344d}
+.school-subtitle{color:#6a7d8e;font-size:12px;margin-top:7px}
+.header-tag{margin-left:auto;white-space:nowrap;color:#087f59;background:#edf7f1;border:1px solid #d5eadc;padding:8px 12px;border-radius:6px;font-size:11px;font-weight:600}
+.sidebar-brand{display:flex;align-items:center;gap:13px;padding:6px 0 18px}
+.sidebar-brand img{width:56px;height:64px;object-fit:contain}
+.sidebar-brand strong{font-size:20px;color:#17344d;letter-spacing:1px}
+.sidebar-brand small{display:block;color:#718398;font-size:9px;letter-spacing:1.2px;margin-top:5px}
+.welcome{background:linear-gradient(120deg,#113f5b,#17618a);color:white;border-radius:14px;padding:34px;margin:16px 0 24px}
+.welcome h2{color:white;font-size:23px!important;margin-bottom:12px}.welcome p{color:#d9e7f0;font-size:14px;max-width:650px;line-height:1.7}
+.workflow{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0}
+.workflow-item{background:white;border:1px solid #dde6ee;border-radius:12px;padding:22px}
+.workflow-item b{display:block;font-size:15px;margin:12px 0 8px;color:#17344d}
+.workflow-item p{font-size:12px;color:#6c7c8c;line-height:1.7}
+.step-number{display:inline-flex;width:28px;height:28px;border-radius:7px;background:#eaf2f8;color:#17618a;align-items:center;justify-content:center;font-weight:700;font-size:12px}
+@media(max-width:760px){.block-container{padding:1rem}.school-header{padding:18px;gap:13px}.school-header img{width:56px;height:65px}.school-name{font-size:14px}.header-tag{display:none}.workflow{grid-template-columns:1fr}.welcome{padding:24px}}
